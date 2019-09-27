@@ -1,8 +1,8 @@
 # **Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model**
 This is the code for paper:\
-**[Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model]**()\
-Yunshi Lan, Shuohang Wang, Jing Jiang\
-Will appear at [ICDM 2019](http://icdm2019.bigke.org/)\
+**[Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model]()**\
+Yunshi Lan, Shuohang Wang, Jing Jiang
+Will appear at [ICDM 2019](http://icdm2019.bigke.org/) .
 
 If you find this code useful in your research, please cite
 >@inproceedings{lan:icdm19,\
@@ -39,10 +39,10 @@ Task 0 is set to train your own model. The data is pre-processed and the model i
 - max_hop : 3\
 - top : 3\
 ## **Performance**
-We re-implemented the model since the cleaning up of the code leads to some variable inconsistence of the previously saved model. The number is slightly different from the ones reported in the paper. The macro average F1 score is shown as follows:\
-```
+We re-implemented the model since the cleaning up of the code leads to some variable inconsistence of the previously saved model. The number is slightly different from the ones reported in the paper. The macro average F1 score is shown as follows:
+
 |Dataset|MetaQA|PathQuestion|WC2014|
 |---|---|---|---|
 |Dev|98.7|98.0|99.9|
 |Test|98.8|96.2|99.9|
-```
+
