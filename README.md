@@ -14,9 +14,9 @@ If you find this code useful in your research, please cite
 
 ## **Setups** 
 All code was developed and tested in the following environment. \
--Ubuntu 16.04\
--Python 3.7.1\
--Pytorch 1.1.0\
+- Ubuntu 16.04
+- Python 3.7.1
+- Pytorch 1.1.0
 Download the code and data:
 ```
 git clone https://github.com/lanyunshi/Multi-hopQA.git
@@ -31,13 +31,13 @@ A full list of commands can be found in ```code/options.py```. The training scri
 python code/Multi-hopKBQA_runner.py --task 0
 ```
 Task 0 is set to train your own model. The data is pre-processed and the model is initialized randomly. To train a new model, a new folder will be generated in the ```trained_model/```. A general good argument setting is:
-- learning_rate : 0.0001\
-- hidden_dimension : 200 \
-- dropout : 0.0\
-- max_epochs : 20\
-- threshold : 0.5\
-- max_hop : 3\
-- top : 3\
+- learning_rate : 0.0001
+- hidden_dimension : 200 
+- dropout : 0.0
+- max_epochs : 20
+- threshold : 0.5
+- max_hop : 3
+- top : 3
 ## **Performance**
 We re-implemented the model since the cleaning up of the code leads to some variable inconsistence of the previously saved model. The number is slightly different from the ones reported in the paper. The macro average F1 score is shown as follows:
 
