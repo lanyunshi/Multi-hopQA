@@ -13,10 +13,11 @@ If you find this code useful in your research, please cite
 >}
 
 ## **Setups** 
-All code was developed and tested in the following environment. \
+All code was developed and tested in the following environment. 
 - Ubuntu 16.04
 - Python 3.7.1
 - Pytorch 1.1.0
+
 Download the code and data:
 ```
 git clone https://github.com/lanyunshi/Multi-hopQA.git
