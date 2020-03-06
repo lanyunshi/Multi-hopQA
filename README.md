@@ -1,6 +1,6 @@
 # **Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model**
 This is the code for paper:\
-**[Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model]()**\
+**[Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5939&context=sis_research)**\
 Yunshi Lan, Shuohang Wang, Jing Jiang\
 Will appear at [ICDM 2019](http://icdm2019.bigke.org/) .
 
